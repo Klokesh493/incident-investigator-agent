@@ -4,11 +4,14 @@ Select time-bounded evidence for the impacted service.
 
 ```mermaid
 flowchart LR
-    N0["example.json"]
-    N1["agent.py"]
-    N2["Filter by impacted service and incident time range, then sort matching event IDs."]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Service, time bounds, and event records"]
+    B["Validate time range and filter by service"]
+    C{"Within incident time range?"}
+    D["Sort and return matching event IDs"]
+    E["Exclude unrelated evidence"]
+    A --> B --> C
+    C -->|Yes| D
+    C -->|No| E
 ```
 
 ## Operational boundaries
