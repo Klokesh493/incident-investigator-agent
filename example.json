@@ -1,0 +1,17 @@
+{
+  "service": "api",
+  "start": 10,
+  "end": 20,
+  "events": [
+    {
+      "id": "e1",
+      "minute": 12,
+      "service": "api"
+    },
+    {
+      "id": "e2",
+      "minute": 21,
+      "service": "api"
+    }
+  ]
+}
