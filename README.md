@@ -12,6 +12,10 @@ This offline prototype reads synthetic input and returns a recommendation or dia
 
 Run `make verify` with Make and Python 3 installed. The sample runs through the CLI and its JSON is compared with `expected.json`.
 
+## Business problem
+
+Incident evidence is easier to review when responders can isolate the affected service and time window from a larger event export.
+
 ## Project walkthrough
 
 ```mermaid

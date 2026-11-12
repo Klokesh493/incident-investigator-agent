@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Select time-bounded evidence for the impacted service.
+Incident evidence is easier to review when responders can isolate the affected service and time window from a larger event export.
 
 ## Reproduce the workflow
 
