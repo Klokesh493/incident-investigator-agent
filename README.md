@@ -2,6 +2,8 @@
 
 Incident evidence is easier to review when responders can isolate the affected service and time window from a larger event export.
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built a local incident evidence filter. It validates the time range, keeps events for the affected service within the inclusive window, and returns event IDs ordered by timestamp and ID.
